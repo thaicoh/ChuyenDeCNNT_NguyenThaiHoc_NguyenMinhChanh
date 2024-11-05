@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutItemDatPhong"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:background="#52673AB7"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtthongtinmadatphong"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:text="Mã: 25624"
+            android:textAlignment="viewStart"
+            android:textColor="#743AB7"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtMaPhong_qldatphong"
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Phòng: 101"
+            android:textColor="#743AB7"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtThoiGian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="21:00 15/6 đến 12:00 17/6"
+        android:textColor="#6E3AB7"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:id="@+id/txtTTKH"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thông tin khách hàng:       "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtthongtinkhachhang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nguyễn Thái Học - 0765944488" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loại phòng: "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtthongtinloaiphong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deluxe" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loại đặt phòng: "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtthongtinloaidatphong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đêm" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tông tiền: "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtthongtingiatien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="320.000 vnd" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trạng thái đặt phòng: "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtthongtintrangthaidatphong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chưa đến" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

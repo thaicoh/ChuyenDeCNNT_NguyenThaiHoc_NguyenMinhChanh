@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_quan_ly_dat_phong"
+        android:title="Quản lý đặt phòng"
+        android:icon="@drawable/ic_quanlydatphong"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_dat_phong"
+        android:title="Đặt phòng"
+        android:icon="@drawable/add"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_quan_ly_loai_phong"
+        android:title="Quản lý loại phòng"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_quan_ly_phong"
+        android:title="Quản lý phòng"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_thong_ke"
+        android:title="Thống kê"
+        app:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DoAn</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="dat_phong_ngay_blank_fragment">Dat phong ngay blank fragment</string>
+    <string name="dat_phong_dem_blank_fragment">Dat phong dem blank fragment</string>
+    <string name="dat_phong_gio_blank_fragment">Dat phong gio blank fragment</string>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#DDCBFD"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:text="Xác nhận đặt phòng"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin khách hàng:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txttenkhachhangDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Họ tên: Nguyễn Thái Học"
+        android:textAlignment="viewStart" />
+
+    <TextView
+        android:id="@+id/txtsdtDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số điện thoại: 0945345345" />
+
+    <TextView
+        android:id="@+id/txtcccdDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số căn cước: 453465744354" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin đặt phòng: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtloaidatphongDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loại đặt phòng: Qua đêm" />
+
+    <TextView
+        android:id="@+id/txtcheckinDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhận phòng: 2024-06-17 21:00:00" />
+
+    <TextView
+        android:id="@+id/txtcheckoutDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trả phòng: 2024-06-17 21:00:00" />
+
+    <TextView
+        android:id="@+id/txtmaphongDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phòng: 102" />
+
+    <TextView
+        android:id="@+id/txtloaiphongDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loại phòng: Deluxe" />
+
+    <TextView
+        android:id="@+id/txtgiatienDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tồng tiền: 520.000 vnd"
+        android:textAlignment="center" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp">
+
+        <Button
+            android:id="@+id/btnDatdialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="50dp"
+            android:text="Đặt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnhuyDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="7dp"
+            android:text="Hủy"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
